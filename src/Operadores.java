@@ -21,7 +21,7 @@ public class Operadores {
         System.out.println("isDezIgualDez "+isDezIgualDez);
         System.out.println("IsDezDiferenteDez "+isDezDiferenteDez);
 
-        // && (AND) // (OR) ! (NEGATIVE)  \\
+        // && (AND) || (OR) ! (NEGATIVE)  \\
 
         int idade = 35;
         float salario = 3500;
@@ -31,7 +31,39 @@ public class Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta"+isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta"+isDentroDaLeiMenorQueTrinta);
 
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000f;
+
+        Boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlaystationCincoCompravel "+isPlaystationCincoCompravel);
+
+        // = += -= *= /= %=
+
+        double bonus = 1800; //1800
+        bonus += 1000; // 2800
+        bonus -= 1000; // 1800
+        bonus *= 2; // 3600
+        bonus /= 3; //1200
+
+        System.out.println(bonus); //vai imprimir 1200
+
+        // ++ --
+
+        int contador = 0;
+        contador +=1; //vai imprimir 1;
+        contador ++;  //vai imprimir 2;
+        contador --; // vai imprimir 1;
+        ++contador; // vai imprimir 2;
+        System.out.println(contador);
+
+
+
+
+
+        }
+
 
 
     }
-}
+
