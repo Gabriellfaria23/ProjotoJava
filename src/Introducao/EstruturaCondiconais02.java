@@ -1,3 +1,5 @@
+package Introducao;
+
 public class EstruturaCondiconais02 {
 
     /* Eu vou fazer uma doação para o DevDojo de R$ 500,00 mas a doação só será realizada se o salário for

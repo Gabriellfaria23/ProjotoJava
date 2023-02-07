@@ -1,3 +1,5 @@
+package Introducao;
+
 public class EstruturaCondicional05 {
     // Dados os valores de 1 a 7, imprima se é dia útil ou final de semana.
 

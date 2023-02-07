@@ -1,3 +1,5 @@
+package Introducao;
+
 public class EstruturaDeRepetição01 {
 
     public static void main(String[] args) {
@@ -6,9 +8,9 @@ public class EstruturaDeRepetição01 {
         while (count < 10) {
             System.out.println(++count);
         }
-
         //Sem o "++count"  o código ficará contando zeros sem parar, o while executa a condição apenas se for compativel.
-          count = 0;
+
+        count = 0;
         do {
             System.out.println("Dentro do do-while "+ ++count);
         } while (count < 10);

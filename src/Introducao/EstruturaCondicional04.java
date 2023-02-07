@@ -1,3 +1,5 @@
+package Introducao;
+
 public class EstruturaCondicional04 {
  //Imprima o dia da semana considerando o primeiro como domingo//
     public static void main(String[] args) {
