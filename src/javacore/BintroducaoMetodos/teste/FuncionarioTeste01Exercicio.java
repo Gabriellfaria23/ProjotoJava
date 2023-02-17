@@ -15,12 +15,11 @@ import javacore.BintroducaoMetodos.dominio.Funcionario;
 public class FuncionarioTeste01Exercicio {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
-        funcionario.nome = "Gabriel";
-        funcionario.idade = 23;
-        funcionario.salarios = new double[]{1200, 987.32, 2000};
-
+        funcionario.setNome("Sanji");
+        funcionario.setIdade(23);
+        funcionario.setSalarios(new double[]{1200, 987.32, 2000});
         funcionario.imprime();
-        funcionario.imprimeMediaSalario();
+
     }
 
 }
